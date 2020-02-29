@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "contact":[
+    {
+      "id":1 
+    }
+  ],
+  "place-order":[
+    {
+      "amntinr":12,
+      "amntpaisa":10,
+      "recipientfname":"suma",
+      "recipientlname":"bade",
+      "streetaddress":"perungudi",
+      "city":"chennai",
+      "state":"tamilnadu",
+      "pincode":456787,
+      "country":"India",
+      "buyerfname":"chandu",
+      "buyerlname":"sanku",
+      "phonenumber":9876567898,
+      "emailid":"suma@gmail.com"
+
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

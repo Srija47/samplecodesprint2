@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
+  <a [routerLink]="'/home'" routerLinkActive="router-link-active" class="name pull-xs-right">
+  <img class="rounded-circle" src="../assets/images/logo.png" width="50" height="50"></a>
+  <span class="name pull-text pull-xs-right" style="font-size:30px;color: white;">&nbsp;&nbsp;&nbsp;GIFT-CARD</span>
+
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav">
+          <a [routerLink]="'/home'" routerLinkActive="router-link-active" class="nav-item nav-link active" style="font-size:25px;color: white;">Home</a>
+          <a [routerLink]="'/place-order'" routerLinkActive="router-link-active" class="nav-item nav-link" style="font-size:25px;color: white;">PlaceOrder</a>
+          <a [routerLink]="'/view-order'" routerLinkActive="router-link-active"  class="nav-item nav-link" style="font-size:25px;color: white;">ViewOrder</a>
+          <a [routerLink]="'/contact-us'" routerLinkActive="router-link-active"  class="nav-item nav-link" tabindex="-1"style="font-size:25px;color: white;">ContactUs</a>
+      </div>
+      <!-- <div class="navbar-nav ml-auto">
+          <a href="#" class="nav-item nav-link">Login</a>
+      </div> -->
+  </div>
+</nav>
+<div class="container-fluid">
+<div class="sidenav">
+  <a [routerLink]="'/home'" routerLinkActive="router-link-active"><i class="glyphicon glyphicon-home"></i> Home</a>
+  <a [routerLink]="'/place-order'" routerLinkActive="router-link-active" ><i class="glyphicon glyphicon-shopping-cart"></i> PlaceOrder</a>
+  <a [routerLink]="'/view-order'" routerLinkActive="router-link-active" ><i class="fa fa-shopping-bag"></i> ViewOrder</a>
+  <a [routerLink]="'/contact-us'" routerLinkActive="router-link-active" ><i class="glyphicon glyphicon-earphone"></i> ContactUS</a>
+</div>
+</div>
+<div class="bg-image">
+<div class="hero-text">
+<div class="col-sm-8 text-left" style="font-size:18px;color:black;">
+  <h1>Hello User!</h1>
+  <h4>Buy, Send, & Redeem Gift Cards</h4>
+  <p>
+      Gift makes it easy for you to give the perfect gift card
+
+      and conveniently manage them from any device!!
+  </p>
+</div>
+<br><br>
+<div class="container container-fluid">
+<a [routerLink]="'/place-order'" routerLinkActive="router-link-active"> <button type="button" class="btn btn-danger btn-lg btn-block" style="max-width: 100%; min-height:100px;font-size:25px;">Place Order</button>
+</a>
+
+</div>
+</div>
+</div>   
+<footer class="footer footer-expand-md navbar-dark bg-dark static fixed-bottom">
+<div class="footer-copyright text-center py-3" style="font-size:20px;color: white;">© 2020 Copyright:
+<a [routerLink]="'/home'" routerLinkActive="router-link-active" > www.EMART.com</a>
+</div>
+</footer>
